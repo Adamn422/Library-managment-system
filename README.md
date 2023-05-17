@@ -1,18 +1,5 @@
-## Getting Started
+This project is Library Management System designed to streamline the process of book borrowing and returning while maintaining an accurate inventory of books. The system also keeps track of borrowers, thus ensuring accountability and reducing the likelihood of overdue or lost books.
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+The software is implemented in Java, making use of object-oriented programming concepts for easy maintenance and updates. It includes classes representing Books, Borrowers, and Transactions, encapsulating all necessary information within these entities. The system supports adding and removing books and borrowers, checking out and returning books, and tracking transactions, i.e., book borrowings.
 
-## Folder Structure
-
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+Moreover, the project incorporates MySQL for persistent data storage, handling the database of books, borrowers, and transactions. This ensures data consistency and durability while allowing for complex queries and reporting. 
